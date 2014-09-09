@@ -78,10 +78,6 @@ cd linux-rootfs-resize
 ./install
    </command>
 
-   <command name="removehttpproxy">
-echo -n > /etc/profile.d/proxy.sh
-   </command>
-
    <command name="sethostname_always">
 sed -i 's/set_hostname/[set_hostname, always]/g' /etc/cloud/cloud.cfg
    </command>
